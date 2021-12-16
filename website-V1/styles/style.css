@@ -1,0 +1,40 @@
+html {
+    font-size: 14px; /* px means "pixels": the base font size is now 14 pixels high  */
+    font-family: 'Quicksand', sans-serif; /* this should be the rest of the output you got from Google fonts */
+  }
+
+/* changing header font size and aligning center*/
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0; /* overrides browsers default styling gap between header and body*/
+    padding: 20px 0; /* sets top/bottom padding to 20px*/
+    color: #00539F;
+    text-shadow: 3px 5px 0 black; /* values set horizontal offset, vertical offset,blur radius, and color*/
+  }
+
+/* changing paragraph font size, line height, and lettter spacing*/
+  p, li {
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+
+/* adding background color to page*/
+  html {
+    background-color: #7AA5D0;
+  }
+
+/* adjusting body style*/
+  body {
+    width: 1000px; /* makes body to be 1000 px wide */
+    margin: 0 auto; /* first value for top/bottom, 2nd value for left/right */
+    background-color: #E9E948;
+    padding: 0 20px 20px 20px; /* values set top, right, bottom, left, in that order */
+    border: 5px solid black;
+  }
+/* adjusting image style*/
+  img {
+    display: block;
+    margin: 0 auto;
+  }
